@@ -1,6 +1,6 @@
 <?php
 
-namespace Huangdijia\HyperfServiceGovernance;
+namespace Huangdijia\HyperfServiceGovernance\Handler;
 
 
 use Hyperf\Contract\ConfigInterface;

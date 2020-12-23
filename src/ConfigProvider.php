@@ -9,7 +9,7 @@ class ConfigProvider
         return [
             'signal' => [
                 'handlers' => [
-                    DeregeisterServicesHandler::class => PHP_INT_MIN
+                    \Huangdijia\HyperfServiceGovernance\Handler\DeregeisterServicesHandler::class => PHP_INT_MIN
                 ],
             ]
         ];
