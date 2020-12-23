@@ -1,0 +1,28 @@
+{
+    "name": "huangdijia/hyperf-service-governance-auto-deregister",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "huangdijia",
+        "email": "huangdijia@gmail.com"
+    }],
+    "require": {
+        "hyperf/service-governance": "^2.0",
+        "hyperf/signal": "^2.0",
+        "hyperf/contract": "^2.0"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "^4.5",
+        "psr/log": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Huangdijia\\HyperfServiceGovernance\\": "src/"
+        }
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Huangdijia\\HyperfServiceGovernance\\ConfigProvider"
+        }
+    }
+}
