@@ -1,5 +1,6 @@
 {
     "name": "huangdijia/hyperf-service-governance-auto-deregister",
+    "description": "Auto deregister component for hyperf-service-governance",
     "type": "library",
     "license": "MIT",
     "authors": [{
