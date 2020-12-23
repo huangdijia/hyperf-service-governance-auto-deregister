@@ -8,7 +8,9 @@ class ConfigProvider
     {
         return [
             'signal' => [
-                'handlers' => DeregeisterServicesHandler::class,
+                'handlers' => [
+                    DeregeisterServicesHandler::class => PHP_INT_MIN
+                ],
             ]
         ];
     }
