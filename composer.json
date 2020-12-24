@@ -10,6 +10,7 @@
     "require": {
         "hyperf/service-governance": "^2.0",
         "hyperf/signal": "^2.0",
+        "hyperf/event": "^2.0",
         "hyperf/contract": "^2.0"
     },
     "require-dev": {
