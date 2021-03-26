@@ -6,6 +6,8 @@
 
 A service-governance component for hyperf
 
+New repositry: https://github.com/friendsofhyperf/service-governance-extra
+
 ## Installation
 
 ~~~bash
